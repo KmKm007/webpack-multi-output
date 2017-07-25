@@ -1,0 +1,27 @@
+{
+  "name": "multi-output",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./dev-server.js",
+    "build": "rm -r -f out && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
